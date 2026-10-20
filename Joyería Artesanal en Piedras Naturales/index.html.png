@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joyería Artesanal | Inicio</title>
+    <title>JoyerÃ­a Artesanal | Inicio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navbar (Menú de Navegación) -->
+    <!-- Navbar (MenÃº de NavegaciÃ³n) -->
     <header>
         <nav class="navbar">
             <div class="logo">Aura & Piedra</div>
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Inicio</a></li>
-                <li><a href="joyas.html">Colección</a></li>
+                <li><a href="joyas.html">ColecciÃ³n</a></li>
                 <li><a href="materiales.html">Materiales</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Slider (Carrusel de Imágenes) -->
+    <!-- Slider (Carrusel de ImÃ¡genes) -->
     <section class="slider-container">
         <div class="slide fade">
             <img src="img/slide1.jpg" alt="Cuarzos y Minerales">
@@ -28,22 +28,22 @@
         </div>
         <div class="slide fade">
             <img src="img/slide2.jpg" alt="Pulseras Artesanales">
-            <div class="slide-text">Hecho a Mano con Pasión</div>
+            <div class="slide-text">Hecho a Mano con PasiÃ³n</div>
         </div>
         <div class="slide fade">
             <img src="img/slide3.jpg" alt="Piedras Semipreciosas">
-            <div class="slide-text">Conecta con la Energía de la Tierra</div>
+            <div class="slide-text">Conecta con la EnergÃ­a de la Tierra</div>
         </div>
         <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
         <button class="next" onclick="plusSlides(1)">&#10095;</button>
     </section>
 
-    <!-- Secciones de Información -->
+    <!-- Secciones de InformaciÃ³n -->
     <main>
         <section class="info-section">
             <div class="info-content">
-                <h2>1. El Arte de Crear con Propósito</h2>
-                <p>Cada pieza de joyería artesanal nace de un proceso meticuloso de selección de minerales, ágatas y cuarzos genuinos, diseñados para realzar la autenticidad y estilo personal.</p>
+                <h2>1. El Arte de Crear con PropÃ³sito</h2>
+                <p>Cada pieza de joyerÃ­a artesanal nace de un proceso meticuloso de selecciÃ³n de minerales, Ã¡gatas y cuarzos genuinos, diseÃ±ados para realzar la autenticidad y estilo personal.</p>
             </div>
             <div class="info-media">
                 <img src="img/info1.jpg" alt="Proceso artesanal">
@@ -51,8 +51,8 @@
         </section>
         <section class="info-section reverse">
             <div class="info-content">
-                <h2>2. Propiedades Energéticas de los Cuarzos</h2>
-                <p>Los cuarzos no solo aportan un valor estético inigualable, sino que transmiten equilibrio, armonía y bienestar a quien los porta en su día a día.</p>
+                <h2>2. Propiedades EnergÃ©ticas de los Cuarzos</h2>
+                <p>Los cuarzos no solo aportan un valor estÃ©tico inigualable, sino que transmiten equilibrio, armonÃ­a y bienestar a quien los porta en su dÃ­a a dÃ­a.</p>
             </div>
             <div class="info-media">
                 <img src="img/info2.jpg" alt="Cuarzos naturales">
@@ -60,20 +60,20 @@
         </section>
         <section class="info-section">
             <div class="info-content">
-                <h2>3. Proceso de Elaboración en Video</h2>
+                <h2>3. Proceso de ElaboraciÃ³n en Video</h2>
                 <p>Visualiza nuestro proceso de tejido con hilo de nylon de alta resistencia y montura de piedras naturales paso a paso.</p>
             </div>
             <div class="info-media">
                 <video controls width="100%">
                     <source src="video/proceso.mp4" type="video/mp4">
-                    Tu navegador no soporta la reproducción de videos.
+                    Tu navegador no soporta la reproducciÃ³n de videos.
                 </video>
             </div>
         </section>
         <section class="info-section reverse">
             <div class="info-content">
-                <h2>4. Exclusividad y Personalización</h2>
-                <p>Ninguna pieza es idéntica a otra. La textura y veta natural de las piedras garantizan accesorios totalmente únicos e irrepetibles.</p>
+                <h2>4. Exclusividad y PersonalizaciÃ³n</h2>
+                <p>Ninguna pieza es idÃ©ntica a otra. La textura y veta natural de las piedras garantizan accesorios totalmente Ãºnicos e irrepetibles.</p>
             </div>
             <div class="info-media">
                 <img src="img/info4.jpg" alt="Joyas terminadas">
@@ -82,19 +82,19 @@
 
         <!-- Formulario de Contacto -->
         <section class="contact-section" id="contacto">
-            <h2>Contáctanos</h2>
+            <h2>ContÃ¡ctanos</h2>
             <form action="#" method="POST" class="contact-form">
                 <div class="form-group">
                     <label for="nombre">Nombre y Apellido:</label>
-                    <input type="text" id="nombre" name="nombre" required placeholder="Ej. Roselita Pérez">
+                    <input type="text" id="nombre" name="nombre" required placeholder="Ej. Roselita PÃ©rez">
                 </div>
                 <div class="form-group">
-                    <label for="email">Correo Electrónico:</label>
+                    <label for="email">Correo ElectrÃ³nico:</label>
                     <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com">
                 </div>
                 <div class="form-group">
                     <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escribe tu consulta aquí..."></textarea>
+                    <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escribe tu consulta aquÃ­..."></textarea>
                 </div>
                 <button type="submit" class="btn-submit">Enviar Mensaje</button>
             </form>
@@ -104,7 +104,7 @@
     <!-- Footer Institucional -->
     <footer>
         <div class="footer-content">
-            <p><strong>Universidad Bicentenaria de Aragua (UBA)</strong> - Núcleo Temático: Estructuras Simples para la Web</p>
+            <p><strong>Universidad Bicentenaria de Aragua (UBA)</strong> - NÃºcleo TemÃ¡tico: Estructuras Simples para la Web</p>
             <p>Participante: Roselita</p>
             <p>&copy; 2026 Todos los derechos reservados.</p>
         </div>
