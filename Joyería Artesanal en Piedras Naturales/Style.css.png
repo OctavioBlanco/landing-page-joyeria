@@ -97,7 +97,7 @@ body {
 .prev { left: 0; }
 .prev:hover, .next:hover { background-color: rgba(0,0,0,0.8); }
 
-/* --- Animación de Transición para el Slider --- */
+/* --- AnimaciÃ³n de TransiciÃ³n para el Slider --- */
 .fade {
     animation-name: fadeEffect;
     animation-duration: 1.5s;
