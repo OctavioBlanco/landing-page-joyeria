@@ -2,18 +2,18 @@
 let currentSlide = 0;
 let slideInterval;
 
-// Esperar a que el DOM esté completamente cargado
+// Esperar a que el DOM estÃ© completamente cargado
 document.addEventListener("DOMContentLoaded", () => {
     showSlide(currentSlide);
     startAutoSlide();
 });
 
-// Muestra una diapositiva específica por su índice
+// Muestra una diapositiva especÃ­fica por su Ã­ndice
 function showSlide(index) {
     const slides = document.querySelectorAll(".slide");
     if (slides.length === 0) return;
 
-    // Normalizar el índice dentro del rango de slides disponibles
+    // Normalizar el Ã­ndice dentro del rango de slides disponibles
     if (index >= slides.length) { currentSlide = 0; }
     else if (index < 0) { currentSlide = slides.length - 1; }
     else { currentSlide = index; }
@@ -31,25 +31,25 @@ function plusSlides(n) {
     resetAutoSlide(); // Reinicia el temporizador al interactuar manualmente
 }
 
-// Iniciar el temporizador automático cada 5 segundos
+// Iniciar el temporizador automÃ¡tico cada 5 segundos
 function startAutoSlide() {
     slideInterval = setInterval(() => {
         showSlide(currentSlide + 1);
     }, 5000);
 }
 
-// Reiniciar el temporizador para evitar saltos caóticos
+// Reiniciar el temporizador para evitar saltos caÃ³ticos
 function resetAutoSlide() {
     clearInterval(slideInterval);
     startAutoSlide();
 }
 
-// Validación interactiva del formulario de contacto sin recarga de página
+// ValidaciÃ³n interactiva del formulario de contacto sin recarga de pÃ¡gina
 const contactForm = document.querySelector('.contact-form');
 if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        alert('¡Gracias por tu mensaje! Nos pondremos en contacto contigo a la brevedad.');
+        alert('Â¡Gracias por tu mensaje! Nos pondremos en contacto contigo a la brevedad.');
         contactForm.reset();
     });
 }
