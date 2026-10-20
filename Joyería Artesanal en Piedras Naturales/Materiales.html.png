@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Materiales | Joyería Artesanal</title>
+    <title>Materiales | JoyerÃ­a Artesanal</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
             <div class="logo">Aura & Piedra</div>
             <ul class="nav-links">
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="joyas.html">Colección</a></li>
+                <li><a href="joyas.html">ColecciÃ³n</a></li>
                 <li><a href="materiales.html" class="active">Materiales</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
@@ -20,19 +20,19 @@
     </header>
     <main class="page-content">
         <h1>Materiales de Alta Calidad</h1>
-        <p class="page-intro">Trabajamos exclusivamente con elementos duraderos, hipoalergénicos y de origen natural.</p>
+        <p class="page-intro">Trabajamos exclusivamente con elementos duraderos, hipoalergÃ©nicos y de origen natural.</p>
         <div class="material-list">
             <div class="material-item">
                 <h2>Piedras Semipreciosas</h2>
-                <p>Cuarzos, ágatas, jaspes y amatistas seleccionadas minuciosamente por su pureza y estructura cristalina.</p>
+                <p>Cuarzos, Ã¡gatas, jaspes y amatistas seleccionadas minuciosamente por su pureza y estructura cristalina.</p>
             </div>
             <div class="material-item">
                 <h2>Hilos de Nylon y Acero</h2>
-                <p>Materiales de gran resistencia a la tensión que garantizan la longevidad y flexibilidad de cada pulsera o collar.</p>
+                <p>Materiales de gran resistencia a la tensiÃ³n que garantizan la longevidad y flexibilidad de cada pulsera o collar.</p>
             </div>
             <div class="material-item">
-                <h2>Herrajes Antialérgicos</h2>
-                <p>Componentes en acero inoxidable y aleaciones libres de níquel para cuidar tu piel con total seguridad.</p>
+                <h2>Herrajes AntialÃ©rgicos</h2>
+                <p>Componentes en acero inoxidable y aleaciones libres de nÃ­quel para cuidar tu piel con total seguridad.</p>
             </div>
         </div>
     </main>
