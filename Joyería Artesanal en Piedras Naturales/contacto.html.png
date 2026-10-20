@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto | Joyería Artesanal</title>
+    <title>Contacto | JoyerÃ­a Artesanal</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,28 +12,28 @@
             <div class="logo">Aura & Piedra</div>
             <ul class="nav-links">
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="joyas.html">Colección</a></li>
+                <li><a href="joyas.html">ColecciÃ³n</a></li>
                 <li><a href="materiales.html">Materiales</a></li>
                 <li><a href="contacto.html" class="active">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main class="page-content">
-        <h1>Canales de Atención</h1>
-        <p class="page-intro">¿Tienes alguna duda o deseas un diseño personalizado? Escríbenos directamente.</p>
+        <h1>Canales de AtenciÃ³n</h1>
+        <p class="page-intro">Â¿Tienes alguna duda o deseas un diseÃ±o personalizado? EscrÃ­benos directamente.</p>
         <div class="contact-container">
             <form action="#" method="POST" class="contact-form">
                 <div class="form-group">
                     <label for="nombre">Nombre y Apellido:</label>
-                    <input type="text" id="nombre" name="nombre" required placeholder="Ej. Roselita Pérez">
+                    <input type="text" id="nombre" name="nombre" required placeholder="Ej. Roselita PÃ©rez">
                 </div>
                 <div class="form-group">
-                    <label for="email">Correo Electrónico:</label>
+                    <label for="email">Correo ElectrÃ³nico:</label>
                     <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com">
                 </div>
                 <div class="form-group">
                     <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Cuéntanos tu requerimiento..."></textarea>
+                    <textarea id="mensaje" name="mensaje" rows="5" required placeholder="CuÃ©ntanos tu requerimiento..."></textarea>
                 </div>
                 <button type="submit" class="btn-submit">Enviar Mensaje</button>
             </form>
