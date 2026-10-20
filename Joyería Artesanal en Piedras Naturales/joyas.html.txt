@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colección | Joyería Artesanal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Aura & Piedra</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="joyas.html" class="active">Colección</a></li>
+                <li><a href="materiales.html">Materiales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="page-content">
+        <h1>Nuestra Colección Exclusiva</h1>
+        <p class="page-intro">Explora nuestra línea de accesorios diseñados para destacar tu elegancia natural con piedras seleccionadas.</p>
+        <div class="grid-gallery">
+            <div class="card">
+                <img src="img/joya1.jpg" alt="Pulsera de Ágata">
+                <h3>Pulseras en Ágata</h3>
+                <p>Tonos vibrantes y estabilidad emocional.</p>
+            </div>
+            <div class="card">
+                <img src="img/joya2.jpg" alt="Collar de Cuarzo Rosa">
+                <h3>Collares de Cuarzo Rosa</h3>
+                <p>Símbolo universal del amor incondicional.</p>
+            </div>
+            <div class="card">
+                <img src="img/joya3.jpg" alt="Anillos de Minerales">
+                <h3>Anillos Ajustables</h3>
+                <p>Detalles sutiles con acabados en piedra natural.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p><strong>Universidad Bicentenaria de Aragua (UBA)</strong></p>
+            <p>Participante: Roselita</p>
+            <p>&copy; 2026 Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
